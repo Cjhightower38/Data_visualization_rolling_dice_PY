@@ -35,7 +35,7 @@ created and render to stores it in the .svg file.
 hist = pygal.Bar()
 
 hist.title = 'Results of rolling one D6 1000 times.'
-hist.x_label = ['1', '2', '3', '4', '5', '6']
+hist.x_labels = ['1', '2', '3', '4', '5', '6']
 hist.x_title = 'Results'
 hist.y_title = 'Frequency of Result'
 
